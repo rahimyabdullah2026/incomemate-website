@@ -45,7 +45,7 @@ a { color: var(--green-strong); }
 }
 .nav .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 60px; }
 .brand { font-weight: 700; font-size: 1.1rem; color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 10px; }
-.brand-mark { width: 28px; height: 28px; border-radius: 8px; background: var(--green); display: inline-block; }
+.brand-mark { width: 30px; height: 30px; border-radius: 7px; display: block; flex-shrink: 0; }
 .nav nav { display: flex; gap: 6px; }
 .nav nav a { color: var(--text); text-decoration: none; padding: 10px 12px; border-radius: 10px; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center; }
 .nav nav a:hover { background: var(--surface-2); }

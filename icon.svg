@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#36CE66"/>
+      <stop offset="100%" stop-color="#1A7A3C"/>
+    </linearGradient>
+    <linearGradient id="wallet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EAF7EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="230" y="236" width="564" height="220" rx="56" fill="#A7F3D0" opacity="0.72"/>
+  <rect x="176" y="316" width="672" height="476" rx="84" fill="url(#wallet)"/>
+  <path fill="#19783B" d="M352 650h320a11 11 0 0 1 0 22H352a11 11 0 0 1 0-22zM370 532a18 18 0 0 1 18-18h36a18 18 0 0 1 18 18v104h-72zM582 532a18 18 0 0 1 18-18h36a18 18 0 0 1 18 18v104h-72zM476 462h72v174h-72zM512 372l82 92H430z"/>
+</svg>
