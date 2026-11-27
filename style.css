@@ -73,6 +73,31 @@ section h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 8px; letter-spac
 .pill { background: var(--surface-2); border-radius: 16px; padding: 16px 18px; font-weight: 600; }
 .pill small { display: block; font-weight: 400; color: var(--muted); }
 
+.steps-grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.step-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 24px;
+  overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column;
+}
+.step-media {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--green) 16%, var(--surface-2)), var(--surface-2));
+  padding: 24px 20px 16px; display: flex; justify-content: center; align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+.step-media img {
+  width: min(230px, 78%); height: auto; display: block;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.16));
+}
+.step-copy { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.step-num {
+  display: inline-block; align-self: flex-start; padding: 3px 10px; border-radius: 999px;
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  background: color-mix(in srgb, var(--green) 18%, transparent); color: var(--green-strong);
+}
+.step-copy h3 { margin: 2px 0 0; font-size: 1.15rem; line-height: 1.25; }
+.step-copy p { margin: 0; color: var(--muted); font-size: 0.96rem; }
+.step-copy ul { margin: 4px 0 0; padding-left: 18px; color: var(--muted); font-size: 0.92rem; display: flex; flex-direction: column; gap: 6px; }
+.step-copy code { background: var(--surface-2); padding: 1px 6px; border-radius: 6px; font-size: 0.88em; color: var(--text); }
+
 .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 footer { padding: 36px 0 56px; color: var(--muted); border-top: 1px solid var(--line); font-size: 0.95rem; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; }
