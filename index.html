@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>IncomeMate — private, offline money tracker for iPhone</title>
   <meta name="description" content="IncomeMate is a private, offline personal finance tracker for iPhone. No account, no cloud sync, no ads, no analytics.">
   <meta name="color-scheme" content="light dark">
@@ -14,7 +14,10 @@
   <header class="nav">
     <div class="wrap">
       <a class="brand" href="#top"><img class="brand-mark" src="icon.svg" alt="" width="30" height="30">IncomeMate</a>
-      <nav aria-label="Main">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation" hidden>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <nav id="main-nav" aria-label="Main">
         <a href="#features">Features</a>
         <a href="#how-to-use">How to use</a>
         <a href="#privacy-highlights">Privacy</a>
@@ -29,7 +32,7 @@
         <span class="badge">Coming soon to the App Store · $4.99, one time</span>
         <h1>Your money. Your device. <span>Nothing uploaded.</span></h1>
         <p>IncomeMate is a private, offline finance tracker for iPhone. Track spending, import bank statements and plan ahead without an account or cloud.</p>
-        <div class="cta-row" style="justify-content:center">
+        <div class="cta-row cta-row-center">
           <a class="btn btn-primary" href="#how-to-use">How it works</a>
           <a class="btn btn-ghost" href="privacy.html" data-doc="privacy">Privacy Policy</a>
         </div>
@@ -160,7 +163,7 @@
           <div class="pill">No ads<small>No ad tracking</small></div>
           <div class="pill">No analytics<small>No third-party SDKs</small></div>
         </div>
-        <div class="cta-row" style="margin-top:24px">
+        <div class="cta-row cta-row-spaced">
           <a class="btn btn-primary" href="privacy.html" data-doc="privacy">Read the Privacy Policy</a>
         </div>
       </div>
